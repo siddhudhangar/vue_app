@@ -1,0 +1,21 @@
+curl -X GET "https://metastudio.org/groups.json" -H "Api-Key: 91798a8f80c6943ead9c7ab19ad3c67f542838a8ae2a854910d3a1ded14773cf" -H "Api-Username: Siddhu_Dhangar"
+
+
+curl -X GET "https://metastudio.org/t/project-ideas-wiki-page/3801.json" -H "Api-Key: 91798a8f80c6943ead9c7ab19ad3c67f542s38a8ae2a854910d3a1ded14773cf" -H "Api-Username: Siddhu_Dhangar"
+
+
+
+curl -X POST "https://metastudio.org/posts.json" \
+-H "Content-Type: multipart/form-data;" \
+-H "Api-Key: 91798a8f80c6943ead9c7ab19ad3c67f542838a8ae2a854910d3a1ded14773cf" \
+-H "Api-Username: Siddhu_Dhangar" \
+-F "title=new topic created for testing" \
+-F "raw=desc of new topic created for testing" \
+-F "archetype=regular" \
+-F "category=5"
+
+Refer below urls for more info: 
+
+https://blog.discourse.org/2017/03/discourse-api-documentation-released/
+
+https://meta.discourse.org/t/how-to-reverse-engineer-the-discourse-api/20576
